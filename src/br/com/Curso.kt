@@ -2,8 +2,9 @@ package br.com
 
 class Curso (val codigo: Int, val nome:String, val qtdMaximaAluno: Int)  {
 
-    /*var professorAdjunto=ProfessorAdjunto()
-    var professorTitular=ProfessorTitular()*/
+    constructor (codigo: Int, nome:String, qtdMaximaAluno: Int, professorAdjunto:ProfessorAdjunto,professorTitular:ProfessorTitular):this(codigo,nome,qtdMaximaAluno) {
+
+   }
 
 
 
